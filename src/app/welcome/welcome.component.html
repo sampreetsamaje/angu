@@ -1,0 +1,29 @@
+<h1 align="center">Indian Airways</h1>
+
+<form (ngSubmit)="Book()" >
+    <!-- <input type="text" name="src" id="src" placeholder="Enter Source" [(ngModel)]="src">
+    <input type="text" name="dest" id="dest" placeholder="Enter Destination" [(ngModel)]="dest"> -->
+    <select name="src" placeholder="sass" id="src" [(ngModel)]="src" >
+        <option value="" disabled selected hidden>Choose Source</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Delhi">Delhi</option>
+    </select>
+
+    <select name="dest" id="dest" [(ngModel)]="dest">
+        <option value="" disabled selected hidden>Choose Destination</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Delhi">Delhi</option>
+    </select>
+    <input type="number" name="num" id="num" placeholder="Select number of passengers" [(ngModel)]="num">
+    <button type="submit" id = "book">Book</button>
+</form>
+
+<router-outlet></router-outlet>

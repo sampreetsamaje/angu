@@ -1,0 +1,10 @@
+.bod
+{
+    height: 98.9vh;
+    width: 100vw;
+    margin-top: -150px;
+    background-image: url('../assets/images/bg.jpg');
+    /* background-color: blue; */
+    background-size : cover;
+    /* background-repeat: no-repeat; */
+  }

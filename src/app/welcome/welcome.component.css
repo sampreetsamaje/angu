@@ -1,0 +1,53 @@
+form
+{
+    height: 400px;
+    width : 600px;
+    border: 2px solid black;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+
+
+#src
+{
+    width : 200px;
+    margin-left: 197px;
+    margin-top: 130px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#dest
+{
+    width : 200px;
+    margin-left: 197px;
+    margin-top: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#num
+{
+    width : 200px;
+    margin-left: 197px;
+    margin-top: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#book
+{
+    width : 60px;
+    background-color: aquamarine;
+    height: 30px;
+    margin-left: 270px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
